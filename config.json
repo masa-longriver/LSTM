@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "epochs": 1000,
+  "data": {
+    "path": "./data/doll_yen.csv",
+    "window": 120,
+    "train_size": 0.7,
+    "valid_size": 0.2,
+    "batch_size": 32
+  },
+  "model": {
+    "input_dim": 4,
+    "hidden_dim": 8,
+    "output_dim": 1,
+    "patience": 10,
+    "dropout_rate": 0.2
+  },
+  "optim": {
+    "lr": 0.001
+  }
+}
